@@ -1,0 +1,129 @@
+body{
+    background-color: rgba(77, 65, 65, 0.398);
+    color: #fff;
+    position: relative;
+    background: transparent;
+}
+body::before{
+    content: "";
+    position: fixed;
+    background:  rgba(77, 65, 65, 0.398);
+    left: 0;
+    background-size: cover;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+
+}
+@media (min-width: 1024px){
+    body::before{
+        background-attachment: fixed;
+    }
+}
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Railewa",sans-serif;
+}
+#header *{
+    transition: ease-in-out 0.3s;
+    position: relative;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    z-index: 997;
+}
+
+#header *{
+    transition: ease-in-out 0.3s;
+}
+#header h1 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    font-family: "Popins",sans-serif;
+}
+#header h1 a,
+#header h1 a:hover{
+    color: #fff;
+    line-height: 1;
+    display:inline-block;
+}
+
+/*classes icones*/
+.github{
+    font-size: 20px;
+    padding-right: 10px;
+    color: #fff;
+}
+.linkedin{
+    font-size: 20px;
+    padding-right: 10px;
+    color: #fff;
+}
+
+.social-links{
+    display: flex; 
+    align-items: flex-start;
+    float: right;
+}
+
+
+
+.bg-primary-color{
+    background-color: black
+}
+
+.bg-secundary-color{
+    background-color: #ece8ea;
+
+}
+
+.bg-dark-color{
+    background-color: #050505;
+}
+
+.primary-color {
+    color: #050505;
+}
+
+.secundary-color{
+    color: #7a7a7a;
+}
+.corpo-menu{
+    margin: 0;
+}
+
+.catg-menu{
+    padding-left: 50px;
+    color: white;
+}
+#navbar-items .navbar-nav{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+
+/* .div-one ul, li{
+    display: flex;
+    background-size: 60px;
+    height: 100px;
+    justify-content: end;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    padding-right: 50px;
+    cursor: pointer;
+    
+} */
